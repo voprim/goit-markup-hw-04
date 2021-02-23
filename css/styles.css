@@ -141,7 +141,8 @@ img {
 }
 
 .header-contacts {
-  margin-left: 331px;
+  /* margin-left: 331px; */
+  margin-left: auto;
 }
 
 .header-contacts li:last-child {
@@ -160,7 +161,21 @@ img {
 /* СЕКЦИЯ ЗАКАЗАТЬ УСЛУГУ */
 
 .tagline-section {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: var(--background-dark);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/back-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 
