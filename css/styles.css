@@ -150,18 +150,15 @@ img {
 }
 
 .header-contacts-item {
+  display: flex;
+  align-items: center;
+
   color: var(--text-main-color);
 }
 
 .header-contacts-item:hover,
 .header-contacts-item:focus {
   color: var(--link-hover-color);
-}
-
-.header-contacts li,
-.header-contacts li {
-  display: flex;
-  align-items: center;
 }
 
 .icon-mail {
